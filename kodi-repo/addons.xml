@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="kodi-repo" name="leopheard" version="1.0.0" provider-name="leopheard">
+    <extension point="xbmc.addon.repository" name="Kodi repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/leopheard/kodi-repo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/leopheard/kodi-repo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/leopheard/kodi-repo/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>leopheard</summary>
+        <description>Kodi repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>leopheard_icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
